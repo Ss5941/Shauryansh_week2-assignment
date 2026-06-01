@@ -1,17 +1,43 @@
 # Shauryansh_week2-assignment
-# 🛒 E-Commerce Sales Database Analysis (ShopEase)
-### Celebal Summer Internship 2026 — Week 2 Implementation Task
+# Superstore Sales Data Analysis Using SQL
 
-**Submitted by:** Shauryansh Chauhan  
-**Institution:** Maharishi Markandeshwar Deemed to be University (MMDU)  
-**Track:** Data Analyst / SQL Developer Intern  
+## Project Overview
+
+This project was completed as part of the **Celebal Summer Internship 2026 – Week 2 Assignment**. It focuses on analyzing a Superstore sales dataset using **MySQL** and SQL queries to extract meaningful business insights. The project covers data exploration, filtering, aggregation, sales analysis, trend analysis, and data validation techniques.
+
+By working with real-world sales data, the project demonstrates how SQL can be used to evaluate business performance, identify top-performing products and customers, analyze regional sales trends, and support data-driven decision-making.
+
+## Key Features
+
+- Data exploration and database analysis
+- Data filtering using SQL conditions
+- Sales, profit, and quantity aggregation
+- Category-wise and region-wise performance analysis
+- Top products and customer identification
+- Monthly sales and profit trend analysis
+- Data validation and quality checks
+- Business insight generation through SQL queries
+
+## Technologies Used
+
+- **MySQL**
+- **SQL (Structured Query Language)**
+- **Superstore Sales Dataset**
+
+## Learning Outcomes
+
+This project helped strengthen practical SQL skills, including data querying, filtering, aggregation, grouping, sorting, and trend analysis. It also provided hands-on experience in extracting actionable insights from business data and performing data quality validation using relational databases.
+
+## Conclusion
+
+The project showcases the effective use of SQL for analyzing retail sales data and generating valuable business insights. It serves as a strong foundation for learning data analytics, business intelligence, and database management concepts.
 
 ---
 
 ## 📌 Project Description
-[cite_start]This repository contains the database schema, sample datasets, and production-ready SQL queries for **ShopEase**, a mid-sized e-commerce platform operating across regions in India[cite: 1, 4]. [cite_start]The project serves as the Week 2 technical submission for the Celebal Summer Internship program.
+This repository contains the database schema, sample datasets, and production-ready SQL queries for **ShopEase**, a mid-sized e-commerce platform operating across regions in India[cite: 1, 4]. [cite_start]The project serves as the Week 2 technical submission for the Celebal Summer Internship program.
 
-[cite_start]The goal of this assignment is to demonstrate practical mastery of standard relational database architecture, structural constraints validation, query index optimizations (SARGable logic vs. non-SARGable execution plans), comprehensive business report aggregations, and data linking using advanced relational joins[cite: 11, 25, 45, 59].
+The goal of this assignment is to demonstrate practical mastery of standard relational database architecture, structural constraints validation, query index optimizations (SARGable logic vs. non-SARGable execution plans), comprehensive business report aggregations, and data linking using advanced relational joins[cite: 11, 25, 45, 59].
 
 ---
 
