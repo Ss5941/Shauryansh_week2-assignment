@@ -190,3 +190,22 @@ INSERT INTO order_items VALUES
 (5013, 1009, 208, 2, 599.00,  15), 
 (5014, 1010, 206, 1, 1299.00, 0), 
 (5015, 1010, 208, 1, 599.00,  0);
+
+START TRANSACTION;
+
+-- 1. Insert a new order
+INSERT INTO orders (order_id, customer_id, order_date, status, total_amount) 
+VALUES (1011, 102, CURDATE(), 'Pending', 1598.00);
+
+-- 2. Insert two order items for that order
+INSERT INTO order_items (item_id, order_id, product_id, quantity, unit_price, discount_pct) 
+VALUES (5016, 1011, 206, 1, 1299.00, 0),
+       (5017, 1011, 208, 1, 599.00, 15);
+
+-- 3. Update the stock_qty of the purchased products
+UPDATE products 
+SET stock_qty = stock_qty - 1 
+WHERE product_id IN (206, 208);
+
+-- 4. COMMIT the transaction 
+COMMIT;
